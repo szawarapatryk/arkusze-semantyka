@@ -1,0 +1,74 @@
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            header {border: 3px solid black;
+                    width: 100%;
+                    height: 15%;
+                    text-align: center;
+                    }
+            nav {justify-content: left;
+                    border: 3px solid black;
+                    width: 100%;
+                    height: 50%;
+                    text-align: center;
+                    }
+            section {border: 3px solid black;
+                    width: 100%;
+                    height: 15%;
+                    text-align: center;
+                    }
+            main {border: 3px solid black;
+                width: 100%;
+                height: 50%;
+                display: flex;
+                }
+            #left {justify-content: left;
+                    border: 3px solid black;
+                    width: 45%;
+                    height: 90%;
+                    text-align: center;
+                    margin: auto;
+                    }
+            #two {justify-content: right;
+                    border: 3px solid white;
+                    width: 35%;
+                    height: 85%;
+                    text-align: center;
+                    margin: auto;
+                    }
+            #right {border: 3px solid black;
+                    width: 100%;
+                    height: 50%;
+                    text-align: center;
+                    }
+            footer {border: 3px solid black;
+                    width: 100%;
+                    height: 15%;
+                    text-align: center;
+                    }
+            a {background-color: grey;
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+                padding:10px;
+                margin:20px;
+                }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p>Blok nagłówkowy</p>
+            <a href="index.html">Powrót</a>
+        </header>
+        <section>Blok sekcji obrazów</section>
+        <main>
+            <section id="left">Blok sekcji lewej</section>
+            <section id="two">
+                <nav>Blok nawigacyjny</nav>
+                <section id="right">Blok sekcji prawej</section>
+            </section>
+        </main>
+        <footer>Blok stopki</footer>
+    </body>
+</html>
